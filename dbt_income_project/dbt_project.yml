@@ -34,5 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_income_project:
       # Applies to all files under models/example/
-      example:
-          materialized: view
+        exercise1:
+            materialized: view 
+        exercise2:
+            materialized: view 
